@@ -1,0 +1,52 @@
+#root {
+max-width: auto;
+margin: 0;
+padding: 1rem;
+text-align: center;
+}
+
+.BIG_BOX
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+    width: 90vw;
+    padding: 0.5%;
+    margin: 0.3% 0.3%;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+.far-left,
+.left,
+.right,
+.far-right
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    width: 20%;
+    padding: 1%;
+    margin: 1%;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+.player-card,
+.enemy-card
+{
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 0.5%;
+    margin: 1%;
+}
+
+input
+{
+    margin: 1%;
+}
