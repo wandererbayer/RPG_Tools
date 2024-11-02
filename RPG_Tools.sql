@@ -11,6 +11,8 @@ CREATE TABLE Players
     hp_player INT NOT NULL
 );
 
+ALTER TABLE Players ADD COLUMN xp_player INT NOT NULL;
+
 CREATE TABLE Enemy
 (
 	id_enemy INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
