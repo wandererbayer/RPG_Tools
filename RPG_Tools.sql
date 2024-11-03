@@ -8,10 +8,9 @@ CREATE TABLE Players
     classe_player VARCHAR(60) NOT NULL, 
     level_player INT NOT NULL,
     ac_player INT NOT NULL,
-    hp_player INT NOT NULL
+    hp_player INT NOT NULL,
+    xp_player INT NOT NULL
 );
-
-ALTER TABLE Players ADD COLUMN xp_player INT NOT NULL;
 
 CREATE TABLE Enemy
 (
